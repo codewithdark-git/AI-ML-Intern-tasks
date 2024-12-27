@@ -27,7 +27,7 @@ Welcome to the AI/ML Internship repository. This repository outlines a structure
 
 ## Repository Structure
 ```python
-AI-ML-Intern-tasks/
+AI-ML-Intern-ta
 ├── Week_1/
 │   ├── Diabetes_prediction/
 │   │   ├── data/
