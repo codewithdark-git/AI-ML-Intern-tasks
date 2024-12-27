@@ -1,7 +1,7 @@
 # Diabetes Prediction Project
 
 ## Overview
-A machine learning solution to predict diabetes using the Pima Indian Diabetes dataset from [Kaggle](https://www.kaggle.com/uciml/pima-indians-diabetes-database).
+A machine learning solution to predict diabetes using the Diabetes dataset from [Kaggle](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset).
 
 ## Project Outcomes
 
