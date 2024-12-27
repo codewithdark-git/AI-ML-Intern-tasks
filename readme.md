@@ -4,7 +4,7 @@ Welcome to the AI/ML Internship repository. This repository outlines a structure
 
 
 ## Table of Contents
-
+```
 - [AI/ML Internship Tasks](#aiml-internship-tasks)
   - [Table of Contents](#table-of-contents)
   - [Repository Structure](#repository-structure)
@@ -77,7 +77,7 @@ AI-ML-Intern-tasks/
 ├── LICENSE
 ├── requirements.txt
 └── README.md
-
+```
 
 ## Week 1: Disease Prediction Using Patient Data
 
