@@ -4,7 +4,7 @@ Welcome to the AI/ML Internship repository. This repository outlines a structure
 
 
 ## Table of Contents
-```
+
 - [AI/ML Internship Tasks](#aiml-internship-tasks)
   - [Table of Contents](#table-of-contents)
   - [Repository Structure](#repository-structure)
@@ -26,6 +26,7 @@ Welcome to the AI/ML Internship repository. This repository outlines a structure
   - [Contact](#contact)
 
 ## Repository Structure
+```python
 AI-ML-Intern-tasks/
 ├── Week_1/
 │   ├── Diabetes_prediction/
