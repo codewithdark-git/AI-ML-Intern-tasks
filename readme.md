@@ -35,14 +35,16 @@ AI-ML-Intern-ta
 │   │   ├── diabetes_prediction.ipynb
 │   │   ├── models/
 │   │   │   └── # Trained models saved here
-│   │   └── README.md
+│   │   └── README.md  # Documentation about the model proformance and insights
 │   └── Heart_disease_prediction/
 │       ├── data/
+│       |   ├── heart-disease-dataset.zip
 │       │   └── heart.csv
-|       |── heart_analysis.ipynb
+│       |   ├── heart-disease-dataset.zip
+|       |── heart_disease.ipynb
 │       ├── models/
 │       │   └── # Trained models saved here
-│       └── README.md
+│       └── README.md  # Documentation about the model proformance and insights
 ├── Week_2/
 │   ├── Cancer_detection/
 │   │   ├── data/
@@ -77,7 +79,7 @@ AI-ML-Intern-ta
 │       └── README.md
 ├── LICENSE
 ├── requirements.txt
-└── README.md
+└── README.md  # Main README file with an overview of the internship tasks
 ```
 
 ## Week 1: Disease Prediction Using Patient Data
