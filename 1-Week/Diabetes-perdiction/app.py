@@ -13,7 +13,7 @@ try:
         rFCM = pickle.load(f)
     with open('Models/LogisticRegression_model.pkl', 'rb') as f:
         lGRM = pickle.load(f)
-    with open('Models/SVC_model.pkl', 'rb') as f:
+    with open('Models/svm_model.pkl', 'rb') as f:
         sVMM = pickle.load(f)
 except FileNotFoundError as e:
     st.error(f"Error loading models: {e}")
@@ -27,7 +27,7 @@ def format_predictions(predictions):
     prompt = """
     Format the following predictions into a detailed, user-friendly report. 
     Each model's prediction should include the model name, prediction (Positive or Negative), and a brief explanation:
-    - Positive (1): Indicates the presence of the condition (e.g., diabetic or heart disease).
+    - Positive (1): Indicates the presence of the condition (diabetic).
     - Negative (0): Indicates the absence of the condition.
 
     Example format:
