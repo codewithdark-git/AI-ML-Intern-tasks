@@ -33,6 +33,7 @@ AI-ML-Intern-ta
 │   │   ├── data/
 │   │   │   └── diabetes.csv
 │   │   ├── diabetes_prediction.ipynb
+│   │   |── app.py # The Streamlit Ui for testing save models
 │   │   ├── models/
 │   │   │   └── # Trained models saved here
 │   │   └── README.md  # Documentation about the model proformance and insights
@@ -41,6 +42,7 @@ AI-ML-Intern-ta
 │       |   ├── heart-disease-dataset.zip
 │       │   └── heart.csv
 │       |   ├── heart-disease-dataset.zip
+│       |── app.py # The Streamlit Ui for testing save models
 |       |── heart_disease.ipynb
 │       ├── models/
 │       │   └── # Trained models saved here

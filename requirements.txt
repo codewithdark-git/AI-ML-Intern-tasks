@@ -3,4 +3,5 @@ pandas
 scikit-learn
 joblib
 matlabplot
-
+streamlit
+g4f

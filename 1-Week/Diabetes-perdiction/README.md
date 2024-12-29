@@ -72,6 +72,23 @@ A machine learning solution to predict diabetes using the Diabetes dataset from 
     - False Negatives: 117
     - True Positives: 2,033
 
+### Streamlit UI
+**Input Selection:**
+input method: manual or CSV upload.
+CSV File Upload:**
+
+Used st.file_uploader to upload the CSV file. The uploaded file is then processed using pandas.read_csv to make predictions for each row.
+Form for Manual Input:
+
+Replaced the Chainlit Form with manual st.number_input fields to take user inputs for each feature (pregnancies, glucose, blood pressure, etc.).
+Used st.selectbox to let users choose whether they want predictions from all models or just the best model (Random Forest).
+Prediction Button:
+
+Added a button (st.button) that triggers the prediction when clicked. The button checks the form inputs, makes the predictions, and then displays the results.
+Result Display:
+
+The results are shown using st.text, which formats the predictions into a readable string.
+
 ### Key Insights
 1. Random Forest achieved the highest accuracy with perfect true negative rate
 2. All models demonstrated exceptional performance (>99.4% accuracy)
@@ -95,5 +112,6 @@ A machine learning solution to predict diabetes using the Diabetes dataset from 
 - Scikit-learn
 - Pandas
 - NumPy
+- chainlit
 - Matplotlib/Seaborn
 - Pickle for model persistence

@@ -90,6 +90,25 @@ This project leverages advanced machine learning techniques to predict the likel
 
 - **Model File:** `Models/SVC_model.pkl`
 
+### Streamlit UI
+**Input Selection:**
+select the input method: manual or CSV upload.
+
+**CSV File Upload:**
+Used `st.file_uploader` to upload the CSV file. The uploaded file is then processed using `pandas.read_csv` to make predictions for each row.
+
+**Form for Manual Input:**
+
+Used st.selectbox to let users choose whether they want predictions from all models or just the best model (Random Forest).
+
+**Prediction Button:**
+
+Added a button (st.button) that triggers the prediction when clicked. The button checks the form inputs, makes the predictions, and then displays the results.
+
+**Result Display:**
+
+The results are shown using st.text, which formats the predictions into a readable string.
+
 ### Key Insights
 1. The Random Forest Classifier demonstrated the best overall performance, achieving the highest accuracy and F1 score.
 2. The Decision Tree Classifier exhibited near-perfect precision for negative predictions, making it a viable alternative in certain contexts.
@@ -109,4 +128,4 @@ This project leverages advanced machine learning techniques to predict the likel
 - NumPy
 - Matplotlib/Seaborn
 - Pickle for model serialization
-
+- Streamlit for web application development
