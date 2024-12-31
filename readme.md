@@ -60,15 +60,22 @@ AI-ML-Intern-ta
 │   │   └── README.md
 ├── Week_3/
 │   ├── Skin_cancer_detection/
-│   │   ├── data/
-│   │   │   └── isic_images/
-│   │   ├── notebooks/
-│   │   │   └── skin_cancer_detection.ipynb
-│   │   ├── models/
-│   │   │   └── resnet50_model.h5
-│   │   ├── reports/
-│   │   │   └── skin_cancer_report.pdf
-│   │   └── README.md
+│   │   ├── melamoma_cancer_dataset
+|   |   |   ├── test
+|   │   │   |  ├── melanoma
+|   │   │   |  └── benign
+|   │   |   └── train
+|   |   |      ├── melanoma
+|   |   |      └── benign
+│   │   ├── skin_cancer_detection.ipynb
+│   │   ├── melanoma-skin-cancer-dataset-of-10000-images.zip
+│   │   ├── melanoma_dataset.npz
+│   │   ├── Models/
+│   │   │   └──             # save train model 
+│   │   ├── melanomaCNN.py  # the CNN model code here
+│   │   ├── pipeline.py     # full pipeline code
+│   │   ├── streamlit.py    # the streamlit Ui for testing the save model
+│   │   └── README.md       # full documentation for the Skin-Cancer-detection Pipeline 
 │   └── Pneumonia_detection/
 │       ├── data/
 │       │   └── chest_xrays/

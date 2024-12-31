@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+3-Week/Skin_cancer_detection/melanoma_cancer_dataset/
+3-Week/Skin_cancer_detection/melanoma_dataset.npz
+3-Week/Skin_cancer_detection/Models
+
 # Distribution / packaging
 .Python
 build/
