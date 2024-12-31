@@ -68,6 +68,7 @@ AI-ML-Intern-ta
 |   |   |      ├── melanoma
 |   |   |      └── benign
 │   │   ├── skin_cancer_detection.ipynb
+│   │   ├── pre-train-models-for-skin-cancer.ipynb
 │   │   ├── melanoma-skin-cancer-dataset-of-10000-images.zip
 │   │   ├── melanoma_dataset.npz
 │   │   ├── Models/

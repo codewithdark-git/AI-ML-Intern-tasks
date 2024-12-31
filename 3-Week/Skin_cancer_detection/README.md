@@ -106,6 +106,10 @@ This project focuses on detecting melanoma (a type of skin cancer) using Convolu
 - **Training Accuracy**: **85.52%**
 - **Testing Accuracy**: **85.20%**
 
+
+### *Performance Metrics with pre-train**
+- **Training Accuracy**: **94.22%**
+- **Testing Accuracy**: **91.10%**
 ---
 
 #### **Future Enhancements**
