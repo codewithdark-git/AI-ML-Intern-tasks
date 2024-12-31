@@ -7,6 +7,8 @@ This project focuses on detecting melanoma (a type of skin cancer) using Convolu
 
 ---
 
+![Pipeline Architecture](diagram1.png)
+
 #### **Pipeline Description**
 
 1. **Data Preprocessing**
@@ -70,6 +72,8 @@ This project focuses on detecting melanoma (a type of skin cancer) using Convolu
      - `load_and_process_image(image_path)`: Loads, converts to grayscale, resizes, and normalizes an image.
      - `process_directory(directory, label)`: Processes all images in a directory and assigns labels.
      - `process_dataset(data_config)`: Processes the entire dataset and returns training and testing splits.
+
+![MelanomaCNN](diagram.png)
 
 2. **MelanomaCNN**
    - Implements the CNN for melanoma classification.
