@@ -7,7 +7,7 @@ This project focuses on detecting melanoma (a type of skin cancer) using Convolu
 
 ---
 
-![Pipeline Architecture](diagram1.png)
+![Pipeline Architecture](https://github.com/codewithdark-git/Melanoma-Skin-Cancer-CNN/blob/5a5fe7a424ed3d7b37e54655cb293cbe925d3ab2/diagram1.png)
 
 #### **Pipeline Description**
 
@@ -21,6 +21,8 @@ This project focuses on detecting melanoma (a type of skin cancer) using Convolu
      - It balances the training data by ensuring the number of benign samples matches the number of malignant samples.
    - **Output**:
      - Saves processed data as `melanoma_dataset.npz` for easy loading during training/testing.
+     - 
+![model_architecture](https://github.com/codewithdark-git/Melanoma-Skin-Cancer-CNN/blob/5a5fe7a424ed3d7b37e54655cb293cbe925d3ab2/model_architecture1.png)
 
 2. **Model Architecture**
    - **Model**: `MelanomaCNN`
@@ -41,7 +43,7 @@ This project focuses on detecting melanoma (a type of skin cancer) using Convolu
    - **Hyperparameters**:
      - Learning Rate: `0.0001`
      - Batch Size: `32`
-     - Epochs: `2`
+     - Epochs: `10`
    - **Optimizer**:
      - Adam optimizer used for efficient gradient-based optimization.
    - **Loss Function**:
@@ -50,12 +52,12 @@ This project focuses on detecting melanoma (a type of skin cancer) using Convolu
      - For each epoch, data is divided into batches.
      - Forward pass calculates predictions, and loss is computed.
      - Backward pass updates weights using gradients.
-     - Training accuracy achieved: **85.52%**
+     - Training accuracy achieved: **89.02%**
 
 4. **Evaluation**
    - **Metrics**:
      - Accuracy calculated as the ratio of correct predictions to the total number of samples.
-   - **Testing Accuracy**: **85.20%**
+   - **Testing Accuracy**: **90.40%**
    - **Evaluation Loop**:
      - The model is evaluated on unseen test data using the same batch size as training.
 
@@ -73,7 +75,7 @@ This project focuses on detecting melanoma (a type of skin cancer) using Convolu
      - `process_directory(directory, label)`: Processes all images in a directory and assigns labels.
      - `process_dataset(data_config)`: Processes the entire dataset and returns training and testing splits.
 
-![MelanomaCNN](diagram.png)
+![MelanomaCNN](https://github.com/codewithdark-git/Melanoma-Skin-Cancer-CNN/blob/5a5fe7a424ed3d7b37e54655cb293cbe925d3ab2/diagram.png)
 
 2. **MelanomaCNN**
    - Implements the CNN for melanoma classification.
@@ -103,13 +105,13 @@ This project focuses on detecting melanoma (a type of skin cancer) using Convolu
 ---
 
 #### **Performance Metrics**
-- **Training Accuracy**: **85.52%**
-- **Testing Accuracy**: **85.20%**
+- **Training Accuracy**: **89.02%**
+- **Testing Accuracy**: **90.40%**
 
-
-### *Performance Metrics with pre-train**
-- **Training Accuracy**: **94.22%**
-- **Testing Accuracy**: **91.10%**
+### *Performance Metrics with Pre-trained Models*
+- **Pretrained Model**: ResNet18
+- **Training Accuracy**: **93.60%**
+- **Testing Accuracy**: **91.98%**
 ---
 
 #### **Future Enhancements**
@@ -128,17 +130,7 @@ This project focuses on detecting melanoma (a type of skin cancer) using Convolu
 
 ---
 
-#### **File Structure**
-- **Code Files**:
-  - Preprocessing Script: `melanoma_data_processor.py`
-  - CNN Model: `melanoma_cnn.py`
-  - Training Script: `train_model.py`
-  - Evaluation Script: `evaluate_model.py`
-- **Data Files**:
-  - Processed Data: `melanoma_dataset.npz`
-  - Trained Model: `Models/saved_model.pth`
-- **Logs**:
-  - Preprocessing Logs: `melanoma_processing.log`
+## **Grad-CAM Visualization for Melanoma Classification:**
 
-
+![](https://github.com/codewithdark-git/Melanoma-Skin-Cancer-CNN/blob/5a5fe7a424ed3d7b37e54655cb293cbe925d3ab2/output.png)
 
