@@ -1,4 +1,4 @@
-# Pneumonia Detection and Analysis System   [See Full REPO here](https://github.com/codewithdark-git/Pneumonia-Detection-from-Chest-X-Rays.git)
+# Pneumonia Detection and Analysis System   [See Full REPO here](https://github.com/XCollab/Pneumonia-Detection-from-Chest-X-Rays.git)
 
 ## Overview
 
