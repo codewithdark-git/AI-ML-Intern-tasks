@@ -1,6 +1,6 @@
 # AI/ML Internship Tasks
 
-Welcome to the AI/ML Internship repository. This repository outlines a structured 3-week program designed to enhance your skills in machine learning and deep learning, focusing on medical data analysis and disease prediction.
+Welcome to the AI/ML Internship repository. This repository outlines a structured 6-week program designed to enhance your skills in machine learning and deep learning, focusing on medical data analysis and disease prediction.
 
 
 ## Table of Contents
